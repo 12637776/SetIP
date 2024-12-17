@@ -6,10 +6,9 @@ cd %~dp0
 set "csvFile=result.csv"
 for /f "skip=1 tokens=1 delims=," %%i in (%csvFile%) do (
 	warp-cli.exe tunnel endpoint reset
-	echo ¶ËµãÒÑÉèÎª %%i
+	echo ç«¯ç‚¹å·²è®¾ä¸º %%i
 	warp-cli.exe tunnel endpoint set %%i
-	echo °´ÈÎÒâ¼ü»»ÏÂÒ»¸ö¶Ëµã»òÕßÓÃCtrl+CÍË³ö
+	echo æŒ‰ä»»æ„é”®æ¢ä¸‹ä¸€ä¸ªç«¯ç‚¹æˆ–è€…ç”¨Ctrl+Cé€€å‡º
 	pause
 )
 endlocal
-pause
