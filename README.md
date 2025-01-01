@@ -1,4 +1,4 @@
-# SetIP
+# SetIP.bat
 一个更换CloudflareWarp连接端点的批处理文件。
  
 适合使用CloudflareWarp上网的用户。配合[https://github.com/peanut996/CloudflareWarpSpeedTest/](https://github.com/peanut996/CloudflareWarpSpeedTest/)生成result.csv使用。
