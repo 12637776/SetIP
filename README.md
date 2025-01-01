@@ -11,3 +11,9 @@ Suitable for users who use CloudflareWarp. Coordinated use with result.csv gener
 1. Put "SetIP.bat" file into the "CloudflareWarpSpeedtest" folder.
 2. Run "CloudflareWarpSpeedtest.exe" to generate "result.csv".
 3. Run "SetIP.bat" as administrator.
+
+
+20250101小升级：
+将当前的端口复制到粘贴板，以便在其他地方粘贴使用，譬如Wireguard。
+
+Copy the currently ip:port to the clipboard for pasting and use elsewhere, such as Wireguard.
